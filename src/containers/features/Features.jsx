@@ -5,19 +5,19 @@ import { Feature } from '../../components';
 const featuresData = [
   {
     title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give'
+    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
   },
   {
     title: 'Become the tended active',
-    text: 'From they fine john he give'
+    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
   },
   {
     title: 'Message or am nothing',
-    text: 'From they fine john he give'
+    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
   },
   {
     title: 'Really boy law county',
-    text: 'From they fine john he give'
+    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
   },
 ]
 
@@ -30,7 +30,7 @@ const Features = () => {
         </div>
         <div className="gpt3__features-container">
             {featuresData.map((item, index) => (
-              <Feature />
+              <Feature title={item.title} text={item.text} key={item.title + index} />
             ))}
         </div>
     </div>
