@@ -42,6 +42,19 @@
     font-size: 25.11px;
     line-height: 30px;
     color: #FFFFFF;
+
+    margin-bottom: 5rem;
+    cursor: pointer;
 }
 
-.gpt3__blog-container_article-content p:last-child {}
+.gpt3__blog-container_article-content p:last-child {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
